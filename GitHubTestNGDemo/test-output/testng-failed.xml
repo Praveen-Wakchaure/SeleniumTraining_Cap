@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GitHubTestSuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://www.google.com"/>
+    <classes>
+      <class name="com.cg.project.test.LoginTest">
+        <methods>
+          <include name="testLoginForInvalidcCredential" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+          <include name="testLoginForValidcCredential"/>
+          <include name="setUpTestEnv"/>
+        </methods>
+      </class> <!-- com.cg.project.test.LoginTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [GitHubTestSuite] -->

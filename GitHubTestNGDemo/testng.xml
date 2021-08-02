@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="GitHubTestSuite">
+
+	<test name="ChromeTest">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.cg.project.test.LoginTest" />
+			<class name="com.cg.project.test.RegistrationTest" />
+		</classes>
+	</test>
+	
+	
+	<!-- <test name="FireFoxTest">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="com.cg.project.test.LoginTest" />
+		</classes>
+	</test> -->
+
+</suite>
